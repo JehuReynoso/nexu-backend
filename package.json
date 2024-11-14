@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "npx nodemon src/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "seed": "node seeders/populateDatabase.js"
   },
   "keywords": [],
@@ -17,7 +17,8 @@
     "express": "^4.21.1",
     "mongoose": "^8.8.1",
     "mysql2": "^3.11.4",
-    "sequelize": "^6.37.5"
+    "sequelize": "^6.37.5",
+    "sqlite3": "^5.1.7"
   },
   "devDependencies": {
     "eslint": "^9.14.0",
